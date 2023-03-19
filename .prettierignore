@@ -1,0 +1,36 @@
+# Build directory
+dist
+
+# Test directories
+coverage
+.nyc_output
+
+# Logs
+logs
+
+# Minified files
+**/*{.,-}min.js
+
+# NPM files
+package.json
+
+src/assets/
+node_modules/
+public/
+
+# files
+.eslintrc
+.env
+.editorconfig
+.prettierrc
+README.md
+yarn.lock
+.next
+aws-exports.js
+.github/
+amplify/
+.vscode/
+.husky/
+src/models
+src/API.ts
+src/graphql
