@@ -1,38 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Currency converter NEP to BUSD:
 
-## Getting Started
+A software that helps to convert NEP currency to BUSD and vice verse and also connects to Binance with the help of metamask.
 
-First, run the development server:
+## Installing / Getting started
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+A quick introduction of the minimal setup you need to get a hello world up &
+running.
+
+```shell
+git clone git@github.com:sujeetSingh123/currency-converter-nep-busd.git
+cd currency-converter-nep-busd/
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Before running process, get secret environment variables ,
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```shell
+nvm use
+yarn
+yarn dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Open http://localhost:3000/ on the browser to view running site.
+Here you should say what actually happens when you execute the code above.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Developing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Built With
 
-## Learn More
+Libraries
+Describes which version .
 
-To learn more about Next.js, take a look at the following resources:
+| Name       | Version |
+| ---------- | ------- |
+| react      | v18.x   |
+| NodeJs     | v16.x   |
+| Typescript | v4.x    |
+| next       | v12.x   |
+| Yarn       | v1.x    |
+| yup        | v0.32.x |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+And state what happens step-by-step. If there is any virtual environment, local server or database feeder needed, explain here.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Building
 
-## Deploy on Vercel
+```shell
+yarn build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Here again you should state what actually happens when the code above gets
+executed.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For the formatting files and lint --fix we have configure rules and with the below command, formats and lint issue are fixed.
+To know details formatting and lint click on the link below,
+[prettier](https://prettier.io/docs/en/configuration.html),
+[eslint](https://eslint.org/)
+
+```shell
+yarn check-all
+```
+
+Above command, formats all the files and fix lint types and check types.
