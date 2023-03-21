@@ -35,12 +35,16 @@ Describes which version .
 | ---------- | ------- |
 | react      | v18.x   |
 | NodeJs     | v16.x   |
-| Typescript | v4.x    |
-| next       | v12.x   |
+| Typescript | v5.x    |
+| next       | v13.x   |
 | Yarn       | v1.x    |
-| yup        | v0.32.x |
+| web3-react | v5.x    |
+| clsx       | v1.x    |
+| eslint     | v8.x    |
+| eslint     | v8.x    |
+| prettier   | v2.x    |
 
-And state what happens step-by-step. If there is any virtual environment, local server or database feeder needed, explain here.
+
 
 ### Building
 
@@ -48,8 +52,7 @@ And state what happens step-by-step. If there is any virtual environment, local 
 yarn build
 ```
 
-Here again you should state what actually happens when the code above gets
-executed.
+
 
 For the formatting files and lint --fix we have configure rules and with the below command, formats and lint issue are fixed.
 To know details formatting and lint click on the link below,
